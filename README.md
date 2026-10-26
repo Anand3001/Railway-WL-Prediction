@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Railway Waitlist Prediction System
 
 A Streamlit dashboard for exploring a local sample dataset and estimating whether a **waitlisted** ticket may be confirmed. It includes data cleaning, exploratory charts, a Random Forest classifier, a rule-based heuristic, and local PNR lookup.
@@ -93,3 +94,7 @@ railway_wl_prediction/
 - The rule-based score is explicitly a heuristic, not a calibrated probability.
 - Tickets with waitlist position `0` are not scored by the waitlist-only predictors.
 - `requirements.txt` includes Streamlit and Plotly, which the dashboard imports.
+=======
+# Railway-WL-Prediction
+Railway Waiting List Prediction System using Python, Random Forest, Pandas, and Streamlit. Features include PNR lookup, manual ticket confirmation prediction, data cleaning, and interactive analytics dashboards with visualizations. Built as an MCA mini project for machine learning and data analysis. Uses a local dataset, not live railway data.
+>>>>>>> 775ea3d61539d99638321d1e71121d6f24581481
